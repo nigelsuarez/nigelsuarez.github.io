@@ -110,12 +110,18 @@ section {
 #mainText1 {
   margin-left: 90px;
   margin-top: 110px;
+  width: fit-content;
+  height: fit-content;
 }
 #mainText2 {
   margin-left: 90px;
+  width: fit-content;
+  height: fit-content;
 }
 #mainText3 {
   margin-left: 90px;
+  width: fit-content;
+  height: fit-content;
 }
 #name {
   color: rgb(201, 130, 0);
@@ -129,21 +135,21 @@ section {
 #circle1 {
   width: 20px;
   display: block;
-  padding-bottom: 30px;
-  padding-top: 280px;
-  padding-left: 320px;
+  margin-bottom: 30px;
+  margin-top: 280px;
+  margin-left: 320px;
   opacity: 1;
 }
 #circle2 {
   width: 20px;
   display: block;
-  padding-bottom: 30px;
-  padding-left: 320px;
+  margin-bottom: 30px;
+  margin-left: 320px;
   opacity: 0.2;
 }
 #circle3 {
   width: 20px;
-  padding-left: 320px;
+  margin-left: 320px;
   opacity: 0.2;
 }
 /*footer----------------------------------*/
@@ -157,18 +163,18 @@ footer {
 }
 #img2 {
   width: 40px;
-  padding-left: 90px;
-  padding-top: 40px;
+  margin-left: 90px;
+  margin-top: 40px;
   transition-duration: 0.3s;
 }
 #img1 {
   width: 40px;
-  padding-left: 20px;
+  margin-left: 20px;
   transition-duration: 0.3s;
 }
 #img3 {
   width: 40px;
-  padding-left: 20px;
+  margin-left: 20px;
   transition-duration: 0.3s;
 }
 #img1:hover {
