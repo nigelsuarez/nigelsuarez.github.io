@@ -70,9 +70,11 @@ header {
 #menu {
   min-width: 23vw;
 }
-#button {
-  text-decoration: none;
-  color: white;
+#divButton {
+  margin-left: 120px;
+  margin-top: 80px;
+  width: fit-content;
+  transition-duration: 0.3s;
 }
 #menuButton {
   font-weight: bold;
@@ -82,13 +84,11 @@ header {
   height: fit-content;
   width: 100px;
   padding: 10px 40px;
-  margin-left: 120px;
-  margin-top: 65px;
-  transition-duration: 0.3s;
+  text-decoration: none;
+  color: white;
 }
-#menuButton:hover {
+#divButton:hover {
   transform: scale(1.1);
-  transition-duration: 0.3s;
 }
 /*section---------------------------------*/
 section {
