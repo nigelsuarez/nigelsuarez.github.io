@@ -5,7 +5,7 @@ body {
   padding: 0;
   background: url(../images/blur.png);
   background-size: cover;
-  background-color: rgb(0,2,27);
+  background-color: rgb(0, 2, 27);
 }
 /*header----------------------------------*/
 header {
@@ -70,9 +70,11 @@ header {
 #menu {
   min-width: 23vw;
 }
-#button {
-  text-decoration: none;
-  color: white;
+#divButton {
+  margin-left: 120px;
+  margin-top: 80px;
+  width: fit-content;
+  transition-duration: 0.3s;
 }
 #menuButton {
   font-weight: bold;
@@ -82,13 +84,11 @@ header {
   height: fit-content;
   width: 100px;
   padding: 10px 40px;
-  margin-left: 120px;
-  margin-top: 65px;
-  transition-duration: 0.3s;
+  text-decoration: none;
+  color: white;
 }
-#menuButton:hover {
+#divButton:hover {
   transform: scale(1.1);
-  transition-duration: 0.3s;
 }
 /*section---------------------------------*/
 section {
@@ -104,14 +104,14 @@ section {
   min-width: 23vw;
 }
 #divMain1 {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   margin-left: 90px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 #divMain2 {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   margin-top: 15px;
   margin-left: 90px;
